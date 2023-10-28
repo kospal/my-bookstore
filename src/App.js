@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route, HashRouter } from "react-router-dom";
 import Navbar from './Components/Navbar';
 import Shops from './Components/Shops';
 import Cart from './Components/Cart';
@@ -14,13 +14,13 @@ function App() {
   return (
     <>
       <ShopContent>
-        <Router>
+        <HashRouter>
           <Navbar setVisibility={setVisibility}/>
           <Routes>
-            <Route path="/" element={<Shops />} />
+            <Route path="/home" element={<Shops />} />
             <Route path="/cart" element={<Cart />}/>
           </Routes>
-        </Router>
+        </HashRouter>
       {visibility && 
       <div className='home'>
         <Filters />

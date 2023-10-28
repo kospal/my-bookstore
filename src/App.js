@@ -17,7 +17,7 @@ function App() {
         <HashRouter>
           <Navbar setVisibility={setVisibility}/>
           <Routes>
-            <Route path="/home" element={<Shops />} />
+            <Route path="/" element={<Shops />} />
             <Route path="/cart" element={<Cart />}/>
           </Routes>
         </HashRouter>

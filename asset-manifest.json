@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/my-bookstore/static/css/main.57c45734.css",
+    "main.js": "/my-bookstore/static/js/main.0ef52830.js",
+    "static/js/787.28cb0dcd.chunk.js": "/my-bookstore/static/js/787.28cb0dcd.chunk.js",
+    "static/media/python2.jpg": "/my-bookstore/static/media/python2.85bce4e3927f577370e4.jpg",
+    "static/media/python1.jpg": "/my-bookstore/static/media/python1.36f1e172ca9db7bf6898.jpg",
+    "static/media/Loki.jpg": "/my-bookstore/static/media/Loki.b1a9c9968f2404a1ffbe.jpg",
+    "static/media/Harry Potter.jpg": "/my-bookstore/static/media/Harry Potter.e0cc6e4c80a402fe09e5.jpg",
+    "static/media/c++.jpg": "/my-bookstore/static/media/c++.8d8137c998a1e1e89651.jpg",
+    "static/media/all the light we cannot see.jpg": "/my-bookstore/static/media/all the light we cannot see.60a075b70f157e3b5fcf.jpg",
+    "static/media/the nature of middle earth.jpg": "/my-bookstore/static/media/the nature of middle earth.efaf0c59d7f9220354e1.jpg",
+    "static/media/lost tales.jpg": "/my-bookstore/static/media/lost tales.44bc2c9c6e34e00fba0d.jpg",
+    "static/media/the haunting.jpg": "/my-bookstore/static/media/the haunting.ee30c0384802ee2abc5b.jpg",
+    "static/media/lord of the rings.jpg": "/my-bookstore/static/media/lord of the rings.39fbf2837b5046a30b7c.jpg",
+    "static/media/green mile.jpg": "/my-bookstore/static/media/green mile.99115ead5eafec8471de.jpg",
+    "static/media/salems lot.jpg": "/my-bookstore/static/media/salems lot.13cb20af89754195d71f.jpg",
+    "static/media/books.png": "/my-bookstore/static/media/books.54231318aac8e94fe5c1.png",
+    "index.html": "/my-bookstore/index.html",
+    "main.57c45734.css.map": "/my-bookstore/static/css/main.57c45734.css.map",
+    "main.0ef52830.js.map": "/my-bookstore/static/js/main.0ef52830.js.map",
+    "787.28cb0dcd.chunk.js.map": "/my-bookstore/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57c45734.css",
+    "static/js/main.0ef52830.js"
+  ]
+}

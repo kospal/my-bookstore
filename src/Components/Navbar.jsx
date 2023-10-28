@@ -22,7 +22,7 @@ const Navbar = ({ setVisibility }) => {
   return (
     <div className="navbar-div">
       <div className="navbar-style">
-        <Link to="/home" onClick={() => handleVisibilityChange(true)}>Home</Link>
+        <Link to="/" onClick={() => handleVisibilityChange(true)}>Home</Link>
           <Link to="/cart">
             <PiShoppingCartSimpleBold
               size={28}

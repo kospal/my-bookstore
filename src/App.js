@@ -1,24 +1,35 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Navbar from './Components/Navbar';
+import Shops from './Components/Shops';
+import Cart from './Components/Cart';
+import ShopContent from './Components/ShopContent';
+import Filters from './Components/Filters';
+import { useState } from 'react';
 
 function App() {
+
+  const [visibility, setVisibility] = useState(true);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <ShopContent>
+        <Router>
+          <Navbar setVisibility={setVisibility}/>
+          <Routes>
+            <Route path="/" element={<Shops />} />
+            <Route path="/cart" element={<Cart />}/>
+          </Routes>
+        </Router>
+      {visibility && 
+      <div className='home'>
+        <Filters />
+       
+      </div>}  
+      </ShopContent>
+
+      
+    </>
   );
 }
 

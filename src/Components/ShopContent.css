@@ -1,0 +1,19 @@
+.btn-removeproduct{
+    background-color: rgba(255, 0, 0, 0.813) ;
+    color: #fff; 
+    border: none;
+    min-width: 100px;
+    padding: 5px 10px; 
+    border-radius: 15px;
+    font-size: 16px;
+    cursor: pointer; 
+    transition: background-color 0.3s, color 0.3s; /* Add a smooth color transition on hover */
+    margin-top:2%;
+  }
+
+  /* Add responsive styles for tablets and mobiles */
+@media (max-width: 767px) {
+  .btn-removeproduct {
+    margin-top: 5%; /* Adjust margin for better spacing on mobile */
+  }
+}

@@ -1,0 +1,19 @@
+.Bookstore-title{
+    margin-left:2%;
+    margin-bottom: 1%;
+}
+
+.my-img{
+
+    margin-left: 7%;
+    height: 5rem;
+    width: 5rem;
+    margin-bottom: 0.5%;
+}
+
+/* Add responsive styles for tablets and mobiles */
+@media (max-width: 767px) {
+    .Bookstore-title {
+      font-size: 26px; /* Reduce font size for better mobile readability */
+    }
+  }

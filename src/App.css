@@ -2,16 +2,14 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.home{
+
+  display: grid;
+  grid-template-columns: 2fr 8fr;
+  height: 100vh;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #282c34;
@@ -34,5 +32,11 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 767px) {
+  .home {
+    display: block;
   }
 }

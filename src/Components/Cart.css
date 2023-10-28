@@ -1,0 +1,92 @@
+.title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.my-products{
+    border: 1px solid black;
+    margin:5%;
+}
+
+.container{
+  text-align: center;
+  margin: 3%;
+}
+
+
+.payment{
+
+  text-align: center;
+  font-size: 30px;
+  display: inline;
+  background-color: lightgray;
+  padding: 1%;
+  border: 1px solid black;
+  
+}
+
+.checkout{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    background-color: black;
+    color:white;
+    padding:1%;
+    cursor: pointer;
+    margin-bottom: 2%;
+}
+
+/* Add responsive styles for tablets and mobiles */
+@media (max-width: 767px) {
+  .title {
+    font-size: 24px; /* Reduce font size for better mobile readability */
+  }
+
+}
+
+@media (max-width: 550px) {
+  .product-image {
+    width: 180px !important;
+    display: block;
+    margin: 0 auto;
+   
+  }
+
+  .footer-div{
+    display: none !important;
+  }
+
+  .payment{
+    display: block;
+    font-size: 25px;
+  }
+
+  .my-products{
+    margin:5%;
+  }
+
+  .checkout{
+    padding:2%;
+
+  }
+
+}
+
+.footer-div{
+  
+  background-color: black;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bookstore{
+  color:white;
+  text-align: center;
+  font-size: 20px;
+}
+

@@ -1,0 +1,69 @@
+.products-div {
+    display: inline-block; /* Display the books in a row */
+    width: 25%; /* Each book takes 25% of the container width to fit four books in a row */
+    padding: 10px; /* Add spacing around each book */
+    box-sizing: border-box; /* Include padding in the width calculation */
+    text-align: center; /* Center-align the content within each book container */
+    margin-top: 25px;
+  
+  }
+  
+  .product-image {
+    width: 200px; /* Set the width of the book images to 300px */
+    height: auto; /* Maintain the aspect ratio */
+    display: block; /* Remove any default inline spacing */
+    margin: 0 auto; /* Center the image horizontally within each book container */
+    height: 258px;
+  }
+  
+  
+  .products-div p {
+    margin: 10px 0; 
+    font-weight: bold; 
+  }
+
+  .btn-product {
+    background-color: #007bff; 
+    color: #fff; 
+    border: 2px solid #007bff; 
+    min-width: 100px;
+    padding: 5px 10px; 
+    border-radius: 15px;
+    font-size: 16px;
+    cursor: pointer; 
+    transition: background-color 0.3s, color 0.3s; /* Add a smooth color transition on hover */
+}
+
+.btn-product:hover {
+    background-color: #0056b3; /* Darker color on hover */
+}
+
+.btn-product:hover {
+    background-color: rgb(19, 19, 19);
+    color: white;
+    cursor: pointer;
+  }
+
+  .product-name {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif; 
+    color:rgba(7, 7, 7, 0.795) ;
+}
+
+.product-price {
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif; 
+    color:black ;
+}
+
+.myproducts{
+    margin-left: -13px;
+    border-top: 1px solid black;
+}
+ 
+/* Add responsive styles for tablets and mobiles */
+@media (max-width: 767px) {
+  .products-div {
+    width: 100%; /* On mobile, set width to 100% to stack items */
+  }
+}

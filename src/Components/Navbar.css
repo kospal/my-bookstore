@@ -1,0 +1,41 @@
+Link {
+  text-decoration: none;
+  color: #333; /* Set your preferred text color */
+  background: #f0f0f0; /* Set your preferred background color */
+  padding: 10px 20px; /* Adjust padding as needed */
+  margin: 5px; /* Adjust margin as needed */
+}
+
+.navbar-div{
+    background-color: black;
+    height: 50px;
+    position: relative;
+}
+
+.navbar-style{
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 50px;
+  align-items: center;
+}
+
+.navbar-style a {
+  text-decoration: none;
+  margin-right:20px;
+  color: white;
+  font-size: 22px;
+}
+
+/* Add responsive styles for tablets and mobiles */
+@media (max-width: 767px) {
+  .navbar-style {
+    margin-right: 0;
+    justify-content: center;
+  }
+
+  .navbar-style a {
+    font-size: 18px; /* Reduce font size for better mobile readability */
+  }
+}
